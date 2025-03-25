@@ -1,2 +1,10 @@
-hi my name is not jean
-bla bkla bla je suis jean 
+let input,button,greeting;
+
+function setup() {
+  createCanvas(800, 600);
+input = createInput();
+input.position(20,65);
+button = createButton("submit");
+buttom.position(input.x + input.width,65);
+button.mousePressed(greet);
+greeting = createElment  
